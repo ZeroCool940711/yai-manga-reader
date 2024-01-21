@@ -1,6 +1,7 @@
 from whoosh.fields import SchemaClass, TEXT, KEYWORD, ID, STORED, DATETIME, BOOLEAN, NUMERIC
 
 class Options(SchemaClass):
+    id = ID(stored=True, unique=True)
     app_title = TEXT(stored=True)
     theme_mode = TEXT(stored=True)
     language = TEXT(stored=True)
