@@ -20,9 +20,6 @@ Run the code:
 # Run the main file using python
 $ python main.py
 
-# You can also run the flet UI directly with Python
-$ python frontend/flet_ui.py
-
 # or with Flet using hot reloading. Better for development.
-$ flet run frontend\flet_ui.py -d -r
+$ flet run main.py -d
 ```
