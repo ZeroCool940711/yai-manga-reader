@@ -1,0 +1,4 @@
+flet
+git+https://github.com/Sygil-Dev/whoosh.git
+pytest
+git+https://github.com/lorey/mlscraper#egg=mlscraper
