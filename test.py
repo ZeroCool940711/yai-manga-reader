@@ -1,4 +1,9 @@
-import pickle, os, requests, logging, json
+import json
+import logging
+import os
+import pickle
+
+import requests
 from mlscraper.html import Page
 from mlscraper.samples import Sample, TrainingSet
 from mlscraper.training import train_scraper

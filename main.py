@@ -1,5 +1,6 @@
 import flet as ft
-from utils import get_options, first_run, set_default_config
+
+from utils import first_run, get_options, set_default_config
 
 if_first_run = first_run()
 
