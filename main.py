@@ -64,7 +64,7 @@ def main(page: ft.Page):
     )
     
     body = ft.Container(
-        expand=1,
+        expand=80,
         content=ft.Text("Library is empty. Go to Browse to add something from some of the supported sites or to add your own content."),
     )
     
