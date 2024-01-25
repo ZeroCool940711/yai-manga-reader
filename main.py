@@ -10,7 +10,16 @@ def main(page: ft.Page):
     page.title = options["app_title"]
     page.theme_mode = ft.ThemeMode.DARK if options["theme_mode"] == "dark" else ft.ThemeMode.LIGHT if options["theme_mode"] == "light" else ft.ThemeMode.SYSTEM
     #page.window_maximized = True
-
+    
+    page.window_maximized = True
+    
+    theme = ft.Theme()
+    theme.page_transitions.android = ft.PageTransitionTheme.OPEN_UPWARDS
+    theme.page_transitions.ios = ft.PageTransitionTheme.CUPERTINO
+    theme.page_transitions.macos = ft.PageTransitionTheme.FADE_UPWARDS
+    theme.page_transitions.linux = ft.PageTransitionTheme.ZOOM
+    theme.page_transitions.windows = ft.PageTransitionTheme.NONE
+    page.theme = theme
 
     page.appbar = ft.AppBar(
         leading_width=40,
