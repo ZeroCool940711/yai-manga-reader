@@ -1,0 +1,26 @@
+{
+  "template": "https://github.com/ZeroCool940711/cookiecutter-python-template",
+  "commit": "04234512440e24d29ec746671515fcfcb67d3606",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Alejandro Gil",
+      "company_name": "Sygil-Dev",
+      "email": "alejandrogilelias940711@gmail.com",
+      "project_name": "Yai",
+      "project_slug": "yai",
+      "module_name": "yai",
+      "project_short_description": "Yai Manga Reader",
+      "package_manager": "pip",
+      "use_notebooks": "no",
+      "use_docker": "no",
+      "ci_pipeline": "none",
+      "create_cli": "no",
+      "config_file": "none",
+      "code_formatter": "black",
+      "editor_settings": "vscode",
+      "_template": "https://github.com/ZeroCool940711/cookiecutter-python-template"
+    }
+  },
+  "directory": "D:\\Alejandro\\Projects\\Python\\Otros\\Cookiecutter-Templates\\cookiecutter-python-template"
+}
