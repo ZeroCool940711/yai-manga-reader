@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/ZeroCool940711/cookiecutter-python-template",
-  "commit": "04234512440e24d29ec746671515fcfcb67d3606",
+  "commit": "8271e932df24e1f08f6971a3a6842dd3215b2f94",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -21,6 +21,5 @@
       "editor_settings": "vscode",
       "_template": "https://github.com/ZeroCool940711/cookiecutter-python-template"
     }
-  },
-  "directory": "D:\\Alejandro\\Projects\\Python\\Otros\\Cookiecutter-Templates\\cookiecutter-python-template"
+  }
 }
