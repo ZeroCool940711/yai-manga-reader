@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/ZeroCool940711/cookiecutter-python-template",
-  "commit": "8271e932df24e1f08f6971a3a6842dd3215b2f94",
+  "commit": "139588b2bfc2f7ad485410e1f208435c96f84476",
   "checkout": null,
   "context": {
     "cookiecutter": {
